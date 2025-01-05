@@ -16,3 +16,6 @@ list(APPEND LIBS pthread)
 
 add_executable(thread_example examples/thread_example.cpp)
 target_link_libraries(thread_example PUBLIC ${LIBS})
+
+add_executable(mempool_example examples/mempool_example.cpp)
+target_link_libraries(mempool_example PUBLIC ${LIBS})
