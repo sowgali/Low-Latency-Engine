@@ -19,3 +19,9 @@ target_link_libraries(thread_example PUBLIC ${LIBS})
 
 add_executable(mempool_example examples/mempool_example.cpp)
 target_link_libraries(mempool_example PUBLIC ${LIBS})
+
+add_executable(lf_example examples/spsc_lf_queue_example.cpp)
+target_link_libraries(lf_example PUBLIC ${LIBS})
+
+add_executable(logging_example examples/logging_example.cpp)
+target_link_libraries(logging_example PUBLIC ${LIBS})
