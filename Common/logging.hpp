@@ -125,6 +125,10 @@ namespace Common {
                 pushValue(LogElement{LogType::INTEGER, {.i = value}});
             }
 
+            auto pushValue(const long value) noexcept {
+                pushValue(LogElement{LogType::LONG_INTEGER, {.l = value}});
+            }
+
             auto pushValue(const long long value) noexcept {
                 pushValue(LogElement{LogType::LONG_LONG_INTEGER, {.ll = value}});
             }

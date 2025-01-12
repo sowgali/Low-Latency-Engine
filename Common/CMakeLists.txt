@@ -25,3 +25,6 @@ target_link_libraries(lf_example PUBLIC ${LIBS})
 
 add_executable(logging_example examples/logging_example.cpp)
 target_link_libraries(logging_example PUBLIC ${LIBS})
+
+add_executable(socket_example examples/socket_example.cpp)
+target_link_libraries(socket_example PUBLIC ${LIBS})
