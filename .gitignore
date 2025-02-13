@@ -1,3 +1,7 @@
 **/cmake-build-release/
 
 *.log
+
+build/*
+
+.vscode/*
